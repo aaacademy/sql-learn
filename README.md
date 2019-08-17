@@ -28,3 +28,8 @@ Database changed
 mysql> CREATE table sekolah(nis INT(10), nama VARCHAR(20), alamat VARCHAR(50) ); 
 Query OK, 0 rows affected (0.02 sec)
 ```
+
+```sql
+mysql> INSERT INTO sekolah(nis, nama, alamat) VALUES(1, 'Rifky', 'Lampung');
+Query OK, 1 row affected (0.02 sec)
+```
